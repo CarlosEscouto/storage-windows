@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "system",
+    "outDir": "dist",
+    "declaration": true,
+    "alwaysStrict": true,
+    "noEmitOnError": true,
+    "noImplicitAny": false,
+    "noImplicitThis": true,
+    "removeComments": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "experimentalDecorators": true,
+    "strictPropertyInitialization": true,
+    "esModuleInterop": true,
+  },
+  "include": [
+    "src/**/*.ts",
+    "kernel-js.d.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
